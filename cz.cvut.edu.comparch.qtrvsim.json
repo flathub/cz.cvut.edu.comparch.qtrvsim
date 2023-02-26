@@ -23,8 +23,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/cvut/qtrvsim/archive/refs/tags/v0.9.4.tar.gz",
-                    "sha256": "e9c467182548b0012908ba36c0e6415c4da22b0bf8bc2700d58b0995dd8e4c1b"
+                    "url" : "https://github.com/cvut/qtrvsim/archive/refs/tags/v0.9.5.tar.gz",
+                    "sha256": "170d4629039f37dbe65391f3397ed923d75d64c7857f7edfb4e841f47283383c"
                 }
             ]
         }
