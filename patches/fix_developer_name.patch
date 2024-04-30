@@ -1,0 +1,22 @@
+From d9d7e013a24b4920fe2c248b191ff4e8c50300ff Mon Sep 17 00:00:00 2001
+From: Pavel Pisa <pisa@cmp.felk.cvut.cz>
+Date: Mon, 26 Feb 2024 22:17:14 +0100
+Subject: [PATCH] Packaging: fill CTU as the developer_name in flatpak metainfo
+
+Signed-off-by: Pavel Pisa <pisa@cmp.felk.cvut.cz>
+---
+ data/cz.cvut.edu.comparch.qtrvsim.metainfo.xml.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/data/cz.cvut.edu.comparch.qtrvsim.metainfo.xml.in b/data/cz.cvut.edu.comparch.qtrvsim.metainfo.xml.in
+index 74b33542..01b8cf8e 100644
+--- a/data/cz.cvut.edu.comparch.qtrvsim.metainfo.xml.in
++++ b/data/cz.cvut.edu.comparch.qtrvsim.metainfo.xml.in
+@@ -3,6 +3,7 @@
+ <component type="desktop-application">
+   <id>@MAIN_PROJECT_APPID@</id>
+   <name>@GENERIC_NAME@</name>
++  <developer_name>Czech Technical University in Prague</developer_name>
+   <summary>RISC-V CPU simulator for education purposes</summary>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0-or-later</project_license>
