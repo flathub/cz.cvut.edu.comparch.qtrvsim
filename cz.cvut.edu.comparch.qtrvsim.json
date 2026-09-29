@@ -1,7 +1,7 @@
 {
     "app-id" : "cz.cvut.edu.comparch.qtrvsim",
     "runtime" : "org.kde.Platform",
-    "runtime-version" : "6.9",
+    "runtime-version" : "6.10",
     "sdk" : "org.kde.Sdk",
     "command" : "qtrvsim_gui",
     "rename-desktop-file" : "qtrvsim.desktop",
@@ -23,8 +23,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/cvut/qtrvsim/archive/refs/tags/v0.9.8.tar.gz",
-                    "sha512": "88efbd3663faadff3f1df44edf518fa9c2f769339d336947cf61c9a9b359b264877f1062a3611b2c3446dbb26a5766316eeb2a861d9e325ca4587705eaddcf15",
+                    "url" : "https://github.com/cvut/qtrvsim/archive/refs/tags/v0.9.9.tar.gz",
+                    "sha512": "88590c068fc3ce60c0a3c48b26b52220372ffe455dc2e3c8fec0b82a474e5d2e28abaea78b7543cd7d17b677f542faae53fe8c928dde7d80be382d304ac5a206",
                     "x-checker-data": {
 			    "type": "git",
 			    "tag-pattern": "^v([\\d.]+)$"
